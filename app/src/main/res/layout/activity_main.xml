@@ -26,7 +26,9 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/contenedor"
-        android:name="com.example.fragmentguide0.QuestionFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"
         android:layout_width="383dp"
         android:layout_height="39dp"
         android:layout_marginTop="2dp"
